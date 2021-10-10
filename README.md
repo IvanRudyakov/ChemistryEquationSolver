@@ -2,6 +2,20 @@
 
 Command-line program written in Java which balances Chemistry equations by making sure that both sides of a reaction have the same number of input atoms of each type as output atoms. If possible, will return the unique coefficients which cannot be divided any more on both sides. Otherwise, will return that there is no solution, or that there are infinitely many most-divided solutions. Implemented using a Gauss-Jordan algorithm on fraction matrices.
 
-## Run
+## Use Chemistry Equation Solver
 
-test
+To run the equation balancer, you need to run the main function located in Main.java, which can be done either in an IDE or by compiling and running on a command line.
+
+Once you run the balancer, you will be prompted for a chemistry equation to solve. This chemistry equation must be input by inputing compounds separated by "+" signs on both sides of the equation, with a "->" between the two sides. You may include white space between different compounds and the "->". Examples:
+
+H2O + CO2 -> C + H2O3         # coefficients returned: 1, 1, 1, 1
+FeS+O2->Fe2O3+SO2             # coefficients returned: 4, 7, 2, 4
+PCl5    + H2O  -> H3PO4+ HCl  # coefficients returned: 1, 4, 1, 5
+H2 + H3 -> H + H4             # Infinitely many solutions (ex. (1, 1, 1, 1), (1, 2, 4, 1))
+H2 -> O2                      # No solutions
+
+The compounds must be formatted in the style shown above. Make sure that elements with two letters start with a capital letter and end without a capital letter. You do not have to include the 1 subscript for elements.
+
+NOTE: Parenthesis cannot be included in the compounds. If you have a compound with parenthesis, distribute the subscript over the elements.
+
+Only valid elements up to element 118 can work. Using any other elements will result in an error.
