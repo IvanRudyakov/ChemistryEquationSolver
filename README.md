@@ -2,7 +2,7 @@
 
 Command-line program written in Java which balances Chemistry equations by making sure that both sides of a reaction have the same number of reactant atoms as product atoms. If possible, will return the unique coefficients which cannot be divided any more on both sides. Otherwise, will return that there is no solution, or that there are infinitely many most-divided solutions. Implemented using a Gauss-Jordan algorithm on fraction matrices.
 
-## Use Chemistry Equation Solver
+## How to Use Chemistry Equation Solver
 
 To run the equation balancer, you need to run the main function located in Main.java, which can be done either in an IDE or by compiling and running on a command line.
 
