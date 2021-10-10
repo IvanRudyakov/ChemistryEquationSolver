@@ -9,9 +9,13 @@ To run the equation balancer, you need to run the main function located in Main.
 Once you run the balancer, you will be prompted for a chemistry equation to solve. This chemistry equation must be input by inputing compounds separated by "+" signs on both sides of the equation, with a "->" between the two sides. You may include white space between different compounds and the "->". Examples:
 
 H2O + CO2 -> C + H2O3         # coefficients returned: 1, 1, 1, 1
+
 FeS+O2->Fe2O3+SO2             # coefficients returned: 4, 7, 2, 4
+
 PCl5    + H2O  -> H3PO4+ HCl  # coefficients returned: 1, 4, 1, 5
+
 H2 + H3 -> H + H4             # Infinitely many solutions (ex. (1, 1, 1, 1), (1, 2, 4, 1))
+
 H2 -> O2                      # No solutions
 
 The compounds must be formatted in the style shown above. Make sure that elements with two letters start with a capital letter and end without a capital letter. You do not have to include the 1 subscript for elements.
