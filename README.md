@@ -28,12 +28,12 @@ Only valid elements up to element 118 can work. Using any other elements will re
 
 If the chemistry equation was formatted correctly, you will get one of four outputs: 
 
-  A list of balanced coefficients corresponding to the compounds, in order, from left to right;
+- A list of balanced coefficients corresponding to the compounds, in order, from left to right;
 
-  The string "Infinite solutions";
+- The string "Infinite solutions";
 
-  The string "No solutions";
+- The string "No solutions";
 
-  The string "No completely positive solutions";
+- The string "No completely positive solutions";
 
 These answers are self explanatory. For all intents and purposes "No solutions" and "No completely positive solutions" can be treated as the same, the only difference is that in the latter case, there is a set of unique balanced coefficients which uses negative coefficients (which, obviously, can't happen in the real world).
