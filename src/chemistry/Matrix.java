@@ -27,7 +27,7 @@ class Matrix{
 			  rowDivide(row, matrix[row][column]);
 			  hasPivot[row] = true;
 			  pivots.put(row, column);
-			  for(int rowTemp = 0; rowTemp > matrix.length; rowTemp++) {
+			  for(int rowTemp = 0; rowTemp < matrix.length; rowTemp++) {
 				  if(rowTemp == row || matrix[rowTemp][column].getNum() == 0) continue;
 				  rowSubtract(rowTemp, rowMultiplied(row, matrix[rowTemp][column]));
 			  }
