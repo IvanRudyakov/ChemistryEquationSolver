@@ -6,7 +6,7 @@ Command-line program written in Java which balances Chemistry equations by makin
 
 To run the equation balancer, you need to run the main function located in Main.java, which can be done either in an IDE or by compiling and running on a command line.
 
-Once you run the balancer, you will be prompted for a chemistry equation to solve in STDOUT. You must input your equation in STDIN. This chemistry equation must be formatted using compounds separated by "+" signs on both sides of the equation, with a "->" between the two sides. You may include arbritrary white space between different compounds and the "->". Examples:
+Once you run the balancer, you will be prompted for a chemistry equation to solve. You must input your equation in STDIN. This chemistry equation must be formatted using compounds separated by "+" signs on both sides of the equation, with a "->" between the two sides. You may include arbritrary white space between different compounds and the "->". Examples:
 
 ```
 H2O + CO2 -> C + H2O3         // coefficients returned: 1, 1, 1, 1
