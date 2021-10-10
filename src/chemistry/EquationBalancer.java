@@ -19,7 +19,7 @@ public class EquationBalancer {
     return new ArrayList<Element>(elementsSet); 
   } 
    
-  public static void main(String[] args){ 
+  public static void balanceInputEquation(){ 
    
 	Scanner scan = new Scanner(System.in);
 	
