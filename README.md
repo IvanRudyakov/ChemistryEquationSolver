@@ -22,6 +22,6 @@ H2 -> O2                      // No solutions
 
 The compounds must be formatted in the style shown above. Make sure that elements with two letters start with a capital letter and end without a capital letter, and elements with a single letter are capitalized. If elements have a subscript of 1, the 1 may be omitted.
 
-NOTE: Parenthesis cannot be included in the compounds. If you have a compound with parenthesis, distribute the group-subscript over the elements in the parenthesis.
+**Parenthesis cannot be included in the compounds. If you have a compound with parenthesis, distribute the group-subscript over the elements in the parenthesis.**
 
 Only valid elements up to element 118 can work. Using any other elements will result in an error.
